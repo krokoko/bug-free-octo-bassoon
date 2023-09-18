@@ -13,5 +13,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
+
+  minNodeVersion: "18.17.1",
+  maxNodeVersion: "20.6.1",
+  workflowNodeVersion: "18.x",
 });
 project.synth();
