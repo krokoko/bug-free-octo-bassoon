@@ -14,8 +14,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
 
-  minNodeVersion: "18.17.1",
-  maxNodeVersion: "20.6.1",
-  workflowNodeVersion: "18.x",
+  minNodeVersion: '18.17.1',
+  maxNodeVersion: '20.6.1',
+  workflowNodeVersion: '18.x',
+
+  npmRegistryUrl: 'https://npm.pkg.github.com',
+  npmTokenSecret: 'GITHUB_TOKEN',
 });
 project.synth();
