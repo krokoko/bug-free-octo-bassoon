@@ -2,7 +2,7 @@ import { awscdk } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Scott Schreckengaust',
   authorAddress: 'scottschreckengaust@users.noreply.github.com',
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.94.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.0.0',
   name: 'bug-free-octo-bassoon',
@@ -17,6 +17,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   minNodeVersion: '18.17.1',
   maxNodeVersion: '20.6.1',
   workflowNodeVersion: '18.x',
+
+  //cdkVersionPinning: true,
 
   npmRegistryUrl: 'https://npm.pkg.github.com',
   npmTokenSecret: 'GITHUB_TOKEN',
