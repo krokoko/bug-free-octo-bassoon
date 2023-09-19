@@ -7,12 +7,12 @@ A test repository for GitHub Actions
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### Hello <a name="Hello" id="bug-free-octo-bassoon.Hello"></a>
+### Hello <a name="Hello" id="@scottschreckengaust/bug-free-octo-bassoon.Hello"></a>
 
-#### Initializers <a name="Initializers" id="bug-free-octo-bassoon.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="@scottschreckengaust/bug-free-octo-bassoon.Hello.Initializer"></a>
 
 ```typescript
-import { Hello } from 'bug-free-octo-bassoon'
+import { Hello } from '@scottschreckengaust/bug-free-octo-bassoon'
 
 new Hello()
 ```
@@ -26,11 +26,11 @@ new Hello()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#bug-free-octo-bassoon.Hello.sayHello">sayHello</a></code> | *No description.* |
+| <code><a href="#@scottschreckengaust/bug-free-octo-bassoon.Hello.sayHello">sayHello</a></code> | *No description.* |
 
 ---
 
-##### `sayHello` <a name="sayHello" id="bug-free-octo-bassoon.Hello.sayHello"></a>
+##### `sayHello` <a name="sayHello" id="@scottschreckengaust/bug-free-octo-bassoon.Hello.sayHello"></a>
 
 ```typescript
 public sayHello(): string
