@@ -25,5 +25,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   npmRegistryUrl: 'https://npm.pkg.github.com',
   npmTokenSecret: 'GITHUB_TOKEN',
+
+  codeCov: true,
+
 });
 project.synth();
