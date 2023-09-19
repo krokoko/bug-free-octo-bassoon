@@ -1,11 +1,14 @@
 import { awscdk } from 'projen';
+//import { NpmConfig } from 'projen/lib/javascript';
+
+// http://projen.io/api/API.html#class-awscdkconstructlibrary--
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Scott Schreckengaust',
   authorAddress: 'scottschreckengaust@users.noreply.github.com',
   cdkVersion: '2.94.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.0.0',
-  name: 'bug-free-octo-bassoon',
+  name: '@scottschreckengaust/bug-free-octo-bassoon',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/scottschreckengaust/bug-free-octo-bassoon',
 
