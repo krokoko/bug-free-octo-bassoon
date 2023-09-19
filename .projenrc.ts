@@ -27,6 +27,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   npmTokenSecret: 'GITHUB_TOKEN',
 
   codeCov: true,
+  codeCovTokenSecret: 'CODECOV_TOKEN',
 
 });
 project.synth();
