@@ -3,7 +3,7 @@ import { awscdk } from 'projen';
 
 // http://projen.io/api/API.html#class-awscdkconstructlibrary--
 const project = new awscdk.AwsCdkConstructLibrary({
-  author: 'Scott Schreckengaust',
+  author: 'Alain Krok',
   authorAddress: 'scottschreckengaust@users.noreply.github.com',
   cdkVersion: '2.94.0',
   defaultReleaseBranch: 'main',
